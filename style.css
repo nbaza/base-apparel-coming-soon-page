@@ -4,31 +4,24 @@
 	display:none;
 }
 body{
-	
 	background: linear-gradient(150.03deg, #FFFFFF 0%, #FFF4F4 84.51%); 
 }  
 header{
 	padding-top:31px;
 	padding-left:32px;  
-	
 }
-
-
 .logo{
 	width:100px; 
 }
-
 .photosection{
 	margin-top:32.5px; 
 	display: flex;
 	justify-content: center; 
 }
-
 .photosection img{
 	width:100%;  
 	max-width:768px;  
 }
-
 .infosection{
 	padding: 64px 32px 92px 32px; 
 }
@@ -42,12 +35,10 @@ h1{
 	color: #423A3A; 
 	
 }
-
 h1 span{
 	font-weight: 300; 
 	color: #CE9898;  
 }
-
 .infotext{
 	margin-top:16px;
 	font-family: 'Josefin Sans';
@@ -57,13 +48,11 @@ h1 span{
 	text-align: center;
 	color: #CE9898; 
 }
-
 .emailinput{
 	display:flex; 
 	margin-top:32px; 
 	position: relative; 
 }
-
 .emailinput input{
 	border-radius:28px;   
 	background:transparent; 
@@ -74,7 +63,6 @@ h1 span{
 	width:100%; 
 	opacity:0.5;  
 }
-
 .emailinput input::placeholder{ 
     font-family: 'Josefin Sans'; 
 	font-weight: 400;
@@ -84,14 +72,11 @@ h1 span{
 	mix-blend-mode: normal;
 	opacity: 0.5; 
 }
-
 .emailinput img{
 	border-radius:28px;
 	width:8.84px;
 	height:17.67px;  
-
  }
-
  .arrow{
 	border-radius:28px; 
 	width:64px;
@@ -102,13 +87,10 @@ h1 span{
 	align-items: center; 
 	position: absolute; 
 	right:0px;    
-
  }
-
  .arrow:hover{
 	cursor: pointer; 
  }
-
 
  @media only screen and (min-width: 1440px){
 	.hero-mobile{
@@ -120,8 +102,7 @@ h1 span{
 	main{
 		display: grid;
 		grid-template-columns: 57.6388889%  42.3611111%;  
-		grid-template-rows:auto 1fr;    
-		 
+		grid-template-rows:auto 1fr;     
 	}
 	header{
 		padding-top:65.5px;
@@ -132,40 +113,31 @@ h1 span{
 	.logo{
 		width:158px;  
 	}
-	
 	.photosection{
 		grid-row: 1/span 2; 
 		grid-column: 2; 
 		margin-top:0px;
 		height:100vh; 
-		justify-content: flex-end; 
-		
-		
+		justify-content: flex-end; 	
 	}
 	.photosection img{
 		overflow:hidden; 
-		object-fit: cover; 
-
+		object-fit: cover;
 	}
-	
 	.infosection{
 		grid-row: 2; 
 		padding: 136.5px 221px 40px 166px;   
-		
 	}
 	h1{
 		font-size: 64px; 
 		line-height: 71px;
 		letter-spacing:17.3206px; 
-		text-align:left; 
-		
+		text-align:left; 	
 	}
-	
 	h1 span{
 		line-height: 64px; 
 		font-weight: 300; 
 	}
-	
 	.infotext{
 		margin-top:32px; 
 		width:444px;     
@@ -173,18 +145,14 @@ h1 span{
 		line-height: 28px;
 		text-align: left;  
 	}
-	
 	.emailinput{ 
 		margin-top:40px;  
 	}
-	
 	.emailinput input{
 		padding-left:32px;   
 		height:56px; 
-		width:445px;    
-		
+		width:445px;    	
 	}
-	
 	.emailinput input::placeholder{ 
 		font-size: 16px;
 	}
@@ -193,9 +161,7 @@ h1 span{
 		height:56px; 
 		left:345px; 
 		box-shadow: 0px 15px 20px rgba(198, 110, 110, 0.247569);
-	
 	 }
-
 	 .arrow:hover{
 		background: rgba(255, 255, 255, 0.5); 
 		 }  
